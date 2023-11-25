@@ -4,6 +4,7 @@ from sqlalchemy.orm import validates
 from app import db
 
 
+
 class Restaurant(db.Model):
     __tablename__ = 'restaurant'
     id = Column(Integer, primary_key=True)
